@@ -39,8 +39,5 @@ python main.py -t 192.168.1.100 -o scans/
 Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 Disclaimer
 This tool is intended for educational and ethical purposes only. Use it responsibly and only on systems you are authorized to scan. The developers of this tool are not responsible for any misuse or damage caused by its usage.
