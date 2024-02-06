@@ -198,28 +198,25 @@ def animation():
     time.sleep(5)
     done = True
 
-def main():
-    TGREEN = '\033[34m'
-    TWHITE = '\033[31m'
-    print(TWHITE, TGREEN)
-    print("this tool is currently for scanning network and directory enumenation")
-    animation()
 
-    ip_input = input("\nenter ip address-")
-    print("please wait for sometime as it initially find all port that is open on server")
-    time.sleep(2)
+TGREEN = '\033[34m'
+TWHITE = '\033[31m'
+print(TWHITE, TGREEN)
+print("this tool is currently for scanning network and directory enumenation")
+animation()
+ip_input = input("\nenter ip address-")
+print("please wait for sometime as it initially find all port that is open on server")
+time.sleep(2)
 
-    print("nmap starting...................")
-    time.sleep(2)
+print("nmap starting...................")
+time.sleep(2)
 
-    nmap_only_port_scan(ip_input)
-    print(
-        "\n  ---------------------------warning for medium and hard scan your system should be in root---------------------------               ")
-    main_scanning_perform()
+nmap_only_port_scan(ip_input)
+print("\n  ---------------------------warning for medium and hard scan your system should be in root---------------------------               ")
+main_scanning_perform()
 
 
 
-main()
 
 
 
