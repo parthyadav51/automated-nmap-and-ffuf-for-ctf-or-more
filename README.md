@@ -17,7 +17,7 @@ FFUF
 Installation
 Clone the repository:
 
-git clone https://github.com/parthyadav51/automated-ctf-tool.git
+git clone https://github.com/parthyadav51/automated-nmap-and-ffuf-for-ctf-or-more
 
 Install Python dependencies:
 pip install -r requirements.txt
